@@ -48,6 +48,44 @@ The Isolation Forest model achieved an accuracy of 99.78% on the test set, with 
 1.  The OneClassSVM algorithm is known to have a longer runtime compared to other models due to its complexity.
 2.  The PyCaret model comparison code may take longer to run due to its capability of testing multiple algorithms. This step ensures a comprehensive evaluation of various machine learning models, providing a better understanding of their performance and allowing for informed decision-making in selecting the most suitable model for credit card fraud detection
 
+Additionally, here are the results for various other models:
+
+- Random Forest Classifier (rf)
+  - Accuracy: 0.9996
+  - AUC: 0.9431
+  - Recall: 0.7790
+  - Precision: 0.9572
+  - F1: 0.8583
+  - Kappa: 0.8581
+  - MCC: 0.8630
+  - Training Time (Sec): 121.3450
+
+- Extra Trees Classifier (et)
+  - Accuracy: 0.9996
+  - AUC: 0.9430
+  - Recall: 0.7905
+  - Precision: 0.9618
+  - F1: 0.8666
+  - Kappa: 0.8664
+  - MCC: 0.8712
+  - Training Time (Sec): 13.9700
+
+- Extreme Gradient Boosting (xgboost)
+  - Accuracy: 0.9996
+  - AUC: 0.9739
+  - Recall: 0.7994
+  - Precision: 0.9471
+  - F1: 0.8656
+  - Kappa: 0.8654
+  - MCC: 0.8692
+  - Training Time (Sec): 84.5600
+
+And more...
+
+These results provide insights into the performance of different machine learning models in detecting credit card fraud.
+
+
+
 ## Usage
 
 1. Clone the repository.
